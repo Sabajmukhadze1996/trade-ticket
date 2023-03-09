@@ -1,0 +1,88 @@
+#header {
+  width: 100%;
+  /* background-color: #171616; */
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0.2rem;
+  padding-inline: 1rem;
+}
+
+#header .header-inner-container {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #d1d0d0;
+}
+
+.header-inner-container .left-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header-inner-container .right-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header-inner-container .right-container .signin-text {
+    font-weight: 700;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.header-inner-container .right-container .signup-text {
+    cursor: pointer;
+}
+
+#header #phone-icon {
+  color: #ffffff;
+  position: relative;
+  top: 3px;
+  color: #75f275;
+  font-size: 0.9rem;
+}
+
+#header #email-icon {
+  color: #ffffff;
+  position: relative;
+  top: 5px;
+  font-size: 1.25rem;
+  color: #75f275;
+}
+
+/* media quaries for smaller screen sizes */
+
+@media(max-width: 800px) {
+    #header .header-inner-container {
+        margin: 0 auto;
+        width: 1000px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 1.5rem;
+        gap: 0.5rem;
+    }
+   
+}
+
+@media(max-width: 382px) {
+    .header-inner-container .left-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 3rem;
+        gap: 0rem;
+    }
+    .header-inner-container .right-container {
+        position: relative;
+        top: 16px;
+    }
+   
+}
