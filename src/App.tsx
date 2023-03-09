@@ -8,6 +8,7 @@ import Footer from "./components/footer/Footer";
 import HomePage from "./pages/home-page/HomePage";
 import NewsPage from "./pages/news/NewsPage";
 import PurChasePage from "./pages/purchase-tickets-page/PurChasePage";
+import TicketSellPage from "./pages/ticket-sell-page/TicketSellPage";
 
 
 const App: React.FC = () => {
@@ -21,6 +22,7 @@ const App: React.FC = () => {
             <Routes>
               <Route path="/*" element={<HomePage />} />
               <Route path="/purchase" element={<PurChasePage />} />
+              <Route path="/ticket-sell" element={<TicketSellPage />} />
               <Route path="/news" element={<NewsPage />} />
             </Routes>
           </main>

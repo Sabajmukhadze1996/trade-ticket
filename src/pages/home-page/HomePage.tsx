@@ -16,7 +16,7 @@ const HomePage = () => {
         </div>
         <div className="btns-container">
            <NavLink to="/purchase"><button className="first-btn">PURCHASE TICKETS NOW</button></NavLink>
-           <button className="second-btn">SELL TICKETS NOW</button>
+          <NavLink to="ticket-sell"><button className="second-btn">SELL TICKETS NOW</button></NavLink>
         </div>
       </div>
     </div>
