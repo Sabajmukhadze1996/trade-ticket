@@ -87,7 +87,9 @@ const NewsPage = () => {
                 return (
                  <div key={index} className="card">
                     <div className="card-desc-template">
-                            asdasd
+                        <p>{event.date_day}</p>
+                        <p>{event.month}</p>
+                        <p>{event.date}</p>
                     </div>
                     <img src={event.image}/>
                     <div className="card-description">
