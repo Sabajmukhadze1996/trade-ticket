@@ -58,6 +58,12 @@
     font-weight: 400;
     color: #111;
 }
+#purchase-page-container #verified-logo {
+   position: relative;
+   top: 3px;
+}
+
+
 
 #purchase-page-container .table td,.table th{
   padding:12px 15px;
@@ -74,10 +80,20 @@
 	padding-inline: 0.7rem;
     height: 2rem;
     border: 1px solid transparent;
-    background-color: rgb(6, 172, 6);
+    background-color: #06ac06;
     color: #ffffff;
     border-radius: 3px;
     font-weight: 600;
+    cursor: pointer;
+}
+
+#purchase-page-container .table td button:hover{
+	padding-inline: 0.7rem;
+    height: 2rem;
+    border: 1px solid #06ac06;
+    background-color: #ffffff;
+    color: #06ac06;
+    transition: 0.3s ease;
 }
 
 
