@@ -36,9 +36,33 @@
     cursor: pointer;
 }
 
-.header-inner-container .right-container .signup-text {
+.header-inner-container .right-container .signin-text a {
+    font-weight: 700;
+    color: #ffffff;
     cursor: pointer;
 }
+
+.header-inner-container .right-container .signin-text a.active {
+   border-bottom: 1px solid #ffffff;
+}
+
+.header-inner-container .right-container .signin-text a:hover {
+    color: rgb(240, 87, 11);
+    transition: 0.2s ease;
+}
+
+.header-inner-container .right-container .signup-text {
+    cursor: pointer;
+    color: #dadada;
+}
+
+
+.header-inner-container .right-container .signup-text:hover {
+    color: rgb(240, 87, 11);
+    transition: 0.2s ease;
+}
+
+
 
 #header #phone-icon {
   color: #ffffff;

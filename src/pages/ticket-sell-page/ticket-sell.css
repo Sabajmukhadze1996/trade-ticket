@@ -1,5 +1,7 @@
 #ticket-sell-main-container {
   max-width: 1496px;
+  min-height: 100vh;
+  padding-bottom: 4rem;
   margin: 0 auto;
   background-color: whitesmoke;
 }
@@ -27,14 +29,14 @@
 }
 
 #ticket-sell-large-image-container h1 {
-   font-family: Arial, Helvetica, sans-serif;
-   font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
 }
 
 #ticket-sell-large-image-container h3 {
-   font-family: Arial, Helvetica, sans-serif;
-   font-weight: 400;
-   margin-top: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  margin-top: 1.8rem;
 }
 #ticket-sell-large-image-container #location {
   color: #ffffff;
@@ -43,8 +45,118 @@
 }
 
 /* sell-operation-container */
+.ticket-sell-operation-container {
+  padding-top: 3.7rem;
+}
 
+.ticket-sell-operation-container h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #444;
+  font-size: 2.1rem;
+  font-weight: 600;
+}
 
+.ticket-sell-operation-container .ticket-upload-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 105px;
+  border: 2px dashed #c4c4c4;
+  margin: 0 auto;
+  margin-top: 2.5rem;
+  margin-bottom: 2.3rem;
+  cursor: pointer;
+}
 
+#ticket-sell-main-container .ticket-sell-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+}
 
+#ticket-sell-main-container .ticket-sell-input-inner-container {
+  width: 100%;
+  padding-inline: 1rem;
+}
 
+#ticket-sell-main-container .ticket-sell-input-container label {
+  font-weight: 600;
+  color: #444;
+}
+
+#ticket-sell-main-container .ticket-sell-input-container input {
+  padding-block: 0.55rem;
+  width: 100%;
+  border: 1px solid #c4c4c4;
+  outline: none;
+  border-radius: 5px;
+  padding-left: 1rem;
+}
+
+#ticket-sell-main-container .checkbox-agreement-container {
+  max-width: 690px;
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  padding-inline: 1rem;
+}
+
+#ticket-sell-main-container .checkbox-agreement-container label {
+  color: #444;
+  letter-spacing: 0.6px;
+  font-size: 0.9rem;
+}
+
+#ticket-sell-main-container .checkbox-agreement-container input {
+  width: 15px;
+  height: 15px;
+}
+
+#ticket-sell-main-container .sell-btn-container {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 1.9rem;
+padding-inline: 1rem;
+}
+#ticket-sell-main-container button {
+  background-color: #4173b5;
+  max-width: 700px;
+  width: 100%;
+  color: #ffffff;
+  font-size: 1.2rem;
+  padding-block: 0.3rem;
+  outline: none;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+#ticket-sell-main-container button:hover {
+ border: 1px solid #134278;
+ color: #2f64b9; 
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* media quaries for mobile screens */
+
+@media (max-width: 507px) {
+  #ticket-sell-main-container .ticket-sell-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    gap: 1rem;
+  }
+}

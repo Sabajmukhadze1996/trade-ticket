@@ -2,8 +2,7 @@ import React from "react";
 import "./header.css";
 import { BsTelephoneFill } from "react-icons/bs";
 import { MdOutlineEmail } from "react-icons/md";
-
-
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -19,7 +18,10 @@ const Header = () => {
           </p>
         </div>
         <div className="right-container">
-          <p className="signin-text">SIGN IN </p>|<p className="signup-text">SIGN UP</p>
+            <p className="signin-text"><NavLink to="/sign-in">SIGN IN</NavLink></p> | 
+          <NavLink to="/sign-up">
+            <p className="signup-text">SIGN UP</p>
+          </NavLink>
         </div>
       </div>
     </header>
