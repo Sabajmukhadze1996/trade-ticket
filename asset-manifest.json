@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/trade-ticket/static/css/main.b8cec344.css",
-    "main.js": "/trade-ticket/static/js/main.8e77473c.js",
+    "main.css": "/trade-ticket/static/css/main.0d4c727f.css",
+    "main.js": "/trade-ticket/static/js/main.ce1ffc97.js",
     "static/js/787.cc67cb43.chunk.js": "/trade-ticket/static/js/787.cc67cb43.chunk.js",
     "static/media/radiohead.webp": "/trade-ticket/static/media/radiohead.9a1d2e7a6132eee1f233.webp",
+    "static/media/company.jpg": "/trade-ticket/static/media/company.a6f3a54ac52e13d8efe5.jpg",
     "static/media/rolling-stones.webp": "/trade-ticket/static/media/rolling-stones.178de67a0a87ec82426b.webp",
     "static/media/Foo-Fighters.webp": "/trade-ticket/static/media/Foo-Fighters.aca6e0a6740735e81de6.webp",
     "static/media/budapest.jpg": "/trade-ticket/static/media/budapest.9997b0a3c2b06ba94ba2.jpg",
@@ -18,16 +19,19 @@
     "static/media/coldplay.webp": "/trade-ticket/static/media/coldplay.2f712d95e4b61fc44988.webp",
     "static/media/fifa.avif": "/trade-ticket/static/media/fifa.e97b52d15ca8494f5a0c.avif",
     "static/media/u2.webp": "/trade-ticket/static/media/u2.5a4cd0f006a1297649e0.webp",
+    "static/media/contact-phone.jpg": "/trade-ticket/static/media/contact-phone.f6ceeaa29ec9a037726b.jpg",
+    "static/media/values.jpg": "/trade-ticket/static/media/values.0d6d9ed7e65d36d0b850.jpg",
+    "static/media/mission.jpg": "/trade-ticket/static/media/mission.5ce81da25d1ec5b14be4.jpg",
     "static/media/revicons.eot": "/trade-ticket/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/trade-ticket/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/trade-ticket/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/trade-ticket/index.html",
-    "main.b8cec344.css.map": "/trade-ticket/static/css/main.b8cec344.css.map",
-    "main.8e77473c.js.map": "/trade-ticket/static/js/main.8e77473c.js.map",
+    "main.0d4c727f.css.map": "/trade-ticket/static/css/main.0d4c727f.css.map",
+    "main.ce1ffc97.js.map": "/trade-ticket/static/js/main.ce1ffc97.js.map",
     "787.cc67cb43.chunk.js.map": "/trade-ticket/static/js/787.cc67cb43.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8cec344.css",
-    "static/js/main.8e77473c.js"
+    "static/css/main.0d4c727f.css",
+    "static/js/main.ce1ffc97.js"
   ]
 }
