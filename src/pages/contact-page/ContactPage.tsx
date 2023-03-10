@@ -1,5 +1,6 @@
 import React from "react";
 import "./contact-page.css";
+import contactImg from "../../images/contact-phone.jpg"
 
 const ContactPage: React.FC = () => {
   return (
@@ -37,7 +38,7 @@ const ContactPage: React.FC = () => {
       <div className="image-container">
         <img
           className="image"
-          src="https://t3.ftcdn.net/jpg/04/96/83/72/360_F_496837258_blOBqDYeDfAApnMuYgLJ137abkXligxp.jpg"
+          src={contactImg}
           alt="random image 1"
         />
       </div>
