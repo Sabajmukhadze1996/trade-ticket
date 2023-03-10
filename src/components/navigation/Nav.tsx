@@ -22,8 +22,8 @@ const Nav = () => {
           <p><NavLink to="/">HOME</NavLink></p>
           <p onClick={handleOpen}>SEARCH</p>
           <p><NavLink to="/news">NEWS</NavLink></p>
-          <p>ABOUT</p>
-          <p>CONTACT</p>
+          <p><NavLink to="/about">ABOUT</NavLink></p>
+          <p><NavLink to="/contact">CONTACT</NavLink></p>
           <button>
             <span className="cart-count">0</span>
             <FaOpencart />

@@ -11,6 +11,8 @@ import PurChasePage from "./pages/purchase-tickets-page/PurChasePage";
 import TicketSellPage from "./pages/ticket-sell-page/TicketSellPage";
 import SignUp from "./pages/auth/sign-up/SignUp";
 import SignIn from "./pages/auth/sign-in/SignIn";
+import About from "./pages/about-page/About";
+import ContactPage from "./pages/contact-page/ContactPage";
 
 const App: React.FC = () => {
   return (
@@ -21,12 +23,14 @@ const App: React.FC = () => {
           <Nav />
           <main id="main">
             <Routes>
+              <Route path="/sign-up" element={<SignUp />} />
+              <Route path="/sign-in" element={<SignIn />} />
               <Route path="/*" element={<HomePage />} />
               <Route path="/purchase" element={<PurChasePage />} />
               <Route path="/ticket-sell" element={<TicketSellPage />} />
               <Route path="/news" element={<NewsPage />} />
-              <Route path="/sign-up" element={<SignUp />} />
-              <Route path="/sign-in" element={<SignIn />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<ContactPage />} />
             </Routes>
           </main>
           <Footer />
